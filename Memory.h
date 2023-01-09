@@ -1,0 +1,46 @@
+//// Memory.h //////////////////////////////////
+
+#pragma once
+#ifndef __MEMORY_H__
+#define __MEMORY_H__
+
+
+//// class Device /////////////////////////////////////
+
+class Device
+{
+};
+
+//// class RAM /////////////////////////////////////
+
+class RAM : public Device
+{
+};
+
+
+//// class ROM /////////////////////////////////////
+
+class ROM : public Device
+{
+};
+
+//// class REG /////////////////////////////////////
+
+class REG : public Device
+{
+};
+
+
+
+//// class Memory //////////////////////////////////
+
+
+class Memory : public Device
+{
+};
+
+
+
+
+
+#endif // __MEMORY_H__

@@ -14,13 +14,13 @@
 
 #include "Bus.h"
 #include "Gfx.h"
+#include "Memory.h"
 
 
 int main(int argc, char* argv[])
 {
     Bus bus;
     bus.run();
-
 
     return 0;
 }

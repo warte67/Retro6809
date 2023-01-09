@@ -6,6 +6,7 @@
 Bus::Bus()
 {
     printf("Bus::Bus()\n");
+
     gfx = new Gfx(this);
 
     // call _onceInit() only after every device has been created
@@ -26,6 +27,7 @@ Bus::~Bus()
         gfx = nullptr;
     }
 }
+
 
 void Bus::_onceInit()
 {

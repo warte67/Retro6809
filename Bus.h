@@ -7,12 +7,15 @@
 #include "types.h"
 
 class Gfx;
+class ErrorLogger;
 
 class Bus
 {
 public:
     Bus();
     ~Bus();
+
+    static void Err(std::string errmsg);
 
     void _onceInit();
     void _onceQuit();
@@ -27,9 +30,6 @@ private:
 
     bool bIsRunning = true;
 };
-
-
-
 
 
 
