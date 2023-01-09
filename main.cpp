@@ -6,7 +6,7 @@
  *      run:
  *          ./test
  * 
- * Github now enabled?
+ * Github:  https://github.com/warte67/Retro6809.git
  *
  ****************/
 
